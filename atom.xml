@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shuanax.github.io/</id>
     <title>ShuanaX</title>
-    <updated>2020-08-03T07:00:31.533Z</updated>
+    <updated>2020-08-04T08:18:21.828Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shuanax.github.io/"/>
     <link rel="self" href="https://shuanax.github.io/atom.xml"/>
@@ -11,17 +11,90 @@
     <icon>https://shuanax.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, ShuanaX</rights>
     <entry>
+        <title type="html"><![CDATA[我的诗]]></title>
+        <id>https://shuanax.github.io/post/wo-de-shi/</id>
+        <link href="https://shuanax.github.io/post/wo-de-shi/">
+        </link>
+        <updated>2020-08-04T07:49:29.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="躲避">躲避</h1>
+<p>2020年6月8日<br>
+烈火般的日子里<br>
+我们只能<br>
+躲避<br>
+歌颂太阳的人<br>
+把仓皇的蚯蚓<br>
+丢到<br>
+树荫外去<br>
+孩子借着放大镜<br>
+涂鸦着<br>
+一只蚂蚁的生命<br>
+寂静的正午<br>
+风翻过的书页<br>
+盛满了<br>
+燎着的洞<br>
+空空<br>
+顶着炽热的阳光<br>
+我的诗也落了<br>
+雀斑<br>
+唯有在<br>
+月亮出没的晚上<br>
+才能露出头<br>
+晒一晒</p>
+<h1 id="六一节快乐">六一节快乐</h1>
+<p>2020年6月1日<br>
+孩子们，我们<br>
+上街去<br>
+去街上看看<br>
+不配写进课本里的<br>
+悲伤<br>
+疯癫的女人<br>
+坐在马路牙子上<br>
+一只瘦狗<br>
+静立回头的眼光<br>
+孩子们，你们都是花朵<br>
+长大后，却不一定会<br>
+开放<br>
+春天的风吹遍<br>
+也温暖不了<br>
+禾苗里的<br>
+稗草<br>
+孩子们，我们带上<br>
+公园里空树着的<br>
+自由、平等<br>
+我们卷下<br>
+工地围墙上<br>
+虚无的梦<br>
+孩子们，我们<br>
+上街去<br>
+严酷的太阳里<br>
+知了也<br>
+闪着火光<br>
+那是<br>
+做不了花朵的人们<br>
+最后一次<br>
+绽放</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[LaTeX 笔记]]></title>
         <id>https://shuanax.github.io/post/latex-bi-ji/</id>
         <link href="https://shuanax.github.io/post/latex-bi-ji/">
         </link>
         <updated>2020-08-03T05:39:22.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="latex-奇技淫巧大全"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord text"><span class="mord textrm sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord text"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span> 奇技淫巧大全</h1>
+<h2 id="缩短术">缩短术</h2>
+<h3 id="普通缩进">普通缩进</h3>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>A</mi><mo>)</mo><mo>(</mo><mi>B</mi><mo>)</mo><mo>(</mo><mi>A</mi><mo>)</mo><mtext> ⁣</mtext><mo>(</mo><mi>B</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(A) (B) (A)\!(B)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">A</span><span class="mclose">)</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mclose">)</span><span class="mopen">(</span><span class="mord mathdefault">A</span><span class="mclose">)</span><span class="mspace" style="margin-right:-0.16666666666666666em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mclose">)</span></span></span></span></p>
+<pre><code class="language-latex">$(A) (B) (A)\!(B)$
+</code></pre>
+]]></summary>
         <content type="html"><![CDATA[<h1 id="latex-奇技淫巧大全"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>LaTeX</mtext></mrow><annotation encoding="application/x-tex">\LaTeX</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.89883em;vertical-align:-0.2155em;"></span><span class="mord text"><span class="mord textrm">L</span><span class="mspace" style="margin-right:-0.36em;"></span><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.68333em;"><span style="top:-2.904999em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord text"><span class="mord textrm sizing reset-size6 size3">A</span></span></span></span></span></span><span class="mspace" style="margin-right:-0.15em;"></span><span class="mord text"><span class="mord textrm">T</span><span class="mspace" style="margin-right:-0.1667em;"></span><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.46782999999999997em;"><span style="top:-2.7845em;"><span class="pstrut" style="height:3em;"></span><span class="mord text"><span class="mord textrm">E</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2155em;"><span></span></span></span></span><span class="mspace" style="margin-right:-0.125em;"></span><span class="mord textrm">X</span></span></span></span></span></span> 奇技淫巧大全</h1>
 <h2 id="缩短术">缩短术</h2>
 <h3 id="普通缩进">普通缩进</h3>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><mi>A</mi><mo>)</mo><mo>(</mo><mi>B</mi><mo>)</mo><mo>(</mo><mi>A</mi><mo>)</mo><mtext> ⁣</mtext><mo>(</mo><mi>B</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">(A) (B) (A)\!(B)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathdefault">A</span><span class="mclose">)</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mclose">)</span><span class="mopen">(</span><span class="mord mathdefault">A</span><span class="mclose">)</span><span class="mspace" style="margin-right:-0.16666666666666666em;"></span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mclose">)</span></span></span></span></p>
 <pre><code class="language-latex">$(A) (B) (A)\!(B)$
 </code></pre>
+<!-- more -->
 <h3 id="缩小字号">缩小字号</h3>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">A</span></span></span></span></p>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="0.9em"><mi>A</mi></mstyle></mrow><annotation encoding="application/x-tex">\small{A}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.614997em;vertical-align:0em;"></span><span class="mord sizing reset-size6 size5"><span class="mord mathdefault">A</span></span></span></span></span></p>
