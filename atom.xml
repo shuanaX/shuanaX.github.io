@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shuanax.github.io/</id>
     <title>ShuanaX</title>
-    <updated>2020-08-04T08:21:20.028Z</updated>
+    <updated>2020-10-14T14:46:41.662Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shuanax.github.io/"/>
     <link rel="self" href="https://shuanax.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://shuanax.github.io/images/avatar.png</logo>
     <icon>https://shuanax.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, ShuanaX</rights>
+    <entry>
+        <title type="html"><![CDATA[ MATLAB妙手回春]]></title>
+        <id>https://shuanax.github.io/post/markdown-hua-tu/</id>
+        <link href="https://shuanax.github.io/post/markdown-hua-tu/">
+        </link>
+        <updated>2020-10-14T14:44:51.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="删除指定项">删除指定项</h2>
+<h3 id="删除矩阵中的固定值">删除矩阵中的固定值</h3>
+<h2 id="数据出入">数据出入</h2>
+<h3 id="导入excel">导入EXCEL</h3>
+<pre><code class="language-matlab">filename = 'myExample.xlsx';
+sheet = 1;
+xlRange = 'B2:C3';
+subsetA = xlsread(filename,sheet,xlRange)
+</code></pre>
+<h3 id="导出excel">导出EXCEL</h3>
+<pre><code class="language-matlab">values = {1, 2, 3 ; 4, 5, 'x' ; 7, 8, 9};
+headers = {'First','Second','Third'};
+xlswrite('myExample.xlsx',[headers; values]);
+</code></pre>
+<h3 id="保存工作区">保存工作区</h3>
+<pre><code class="language-matlab">save('pqfile.mat','p','q')
+</code></pre>
+<h3 id="导入工作区">导入工作区</h3>
+<pre><code class="language-matlab">load('handel.mat','y')
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我的诗]]></title>
         <id>https://shuanax.github.io/post/wo-de-shi/</id>
