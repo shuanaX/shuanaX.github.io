@@ -2,23 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shuanax.github.io/</id>
     <title>ShuanaX</title>
-    <updated>2020-11-28T13:40:22.139Z</updated>
+    <updated>2021-05-21T09:22:12.061Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shuanax.github.io/"/>
     <link rel="self" href="https://shuanax.github.io/atom.xml"/>
     <subtitle>风虽大，都绕过我的灵魂</subtitle>
     <logo>https://shuanax.github.io/images/avatar.png</logo>
     <icon>https://shuanax.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, ShuanaX</rights>
+    <rights>All rights reserved 2021, ShuanaX</rights>
     <entry>
         <title type="html"><![CDATA[ MATLAB 笔记]]></title>
         <id>https://shuanax.github.io/post/markdown-hua-tu/</id>
         <link href="https://shuanax.github.io/post/markdown-hua-tu/">
         </link>
         <updated>2020-10-14T14:44:51.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="删除指定项">删除指定项</h2>
-<h3 id="删除矩阵中的固定值">删除矩阵中的固定值</h3>
-<h2 id="数据出入">数据出入</h2>
+        <content type="html"><![CDATA[<h2 id="数据io">数据I/O</h2>
 <h3 id="导入excel">导入EXCEL</h3>
 <pre><code class="language-matlab">filename = 'myExample.xlsx';
 sheet = 1;
@@ -36,6 +34,17 @@ xlswrite('myExample.xlsx',[headers; values]);
 <h3 id="导入工作区">导入工作区</h3>
 <pre><code class="language-matlab">load('handel.mat','y')
 </code></pre>
+<h2 id="判断相等">判断相等</h2>
+<p>判断两个数值是否相等，最好不要直接使用等于号，因为经过运算后，计算机可能会用浮点数来表示，这个时候通过比较差值的绝对值比较好，代码中步长是0.1，可以把误差取为0.0001，查找语句改为</p>
+<pre><code class="language-matlab">find(abs(b(:,1) - x(i)) &lt;= 0.00001)
+</code></pre>
+<h2 id="速度优化">速度优化</h2>
+<h3 id="加速符号计算">加速符号计算</h3>
+<p>使用大量sym计算时，安装maple及MATLAB的maple tool box，有效加快符号运算速度（100″+→0.8″）</p>
+<h3 id="使用句柄">使用句柄</h3>
+<h2 id="疑难杂症">疑难杂症</h2>
+<h3 id="maplemexmexw64-不是有效的-win32-应用程序">maplemex.mexw64 不是有效的 Win32 应用程序</h3>
+<img src="https://img-blog.csdnimg.cn/20200330105404541.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hpb25nX3hpbg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" style="zoom:50%;" />
 ]]></content>
     </entry>
     <entry>

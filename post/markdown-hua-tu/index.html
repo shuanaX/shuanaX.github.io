@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title> MATLAB 笔记 | ShuanaX</title>
-<link rel="shortcut icon" href="https://shuanax.github.io//favicon.ico?v=1606570712213">
+<link rel="shortcut icon" href="https://shuanax.github.io//favicon.ico?v=1621588919597">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://shuanax.github.io//styles/main.css">
 <link rel="alternate" type="application/atom+xml" title=" MATLAB 笔记 | ShuanaX - Atom Feed" href="https://shuanax.github.io//atom.xml">
@@ -11,14 +11,14 @@
 
 
 
-    <meta name="description" content="删除指定项
-删除矩阵中的固定值
-数据出入
+    <meta name="description" content="数据I/O
 导入EXCEL
 filename = 'myExample.xlsx';
 sheet = 1;
 xlRange = 'B2:C3';
-subsetA = xlsread(filename,sheet..." />
+subsetA = xlsread(filename,sheet,xlRange)
+
+导出EX..." />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
@@ -28,7 +28,7 @@ subsetA = xlsread(filename,sheet..." />
       <div class="main-content">
         <div class="site-header">
   <a href="https://shuanax.github.io/">
-  <img class="avatar" src="https://shuanax.github.io//images/avatar.png?v=1606570712213" alt="">
+  <img class="avatar" src="https://shuanax.github.io//images/avatar.png?v=1621588919597" alt="">
   </a>
   <h1 class="site-title">
     ShuanaX
@@ -95,9 +95,7 @@ subsetA = xlsread(filename,sheet..." />
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <h2 id="删除指定项">删除指定项</h2>
-<h3 id="删除矩阵中的固定值">删除矩阵中的固定值</h3>
-<h2 id="数据出入">数据出入</h2>
+                <h2 id="数据io">数据I/O</h2>
 <h3 id="导入excel">导入EXCEL</h3>
 <pre><code class="language-matlab">filename = 'myExample.xlsx';
 sheet = 1;
@@ -115,23 +113,41 @@ xlswrite('myExample.xlsx',[headers; values]);
 <h3 id="导入工作区">导入工作区</h3>
 <pre><code class="language-matlab">load('handel.mat','y')
 </code></pre>
+<h2 id="判断相等">判断相等</h2>
+<p>判断两个数值是否相等，最好不要直接使用等于号，因为经过运算后，计算机可能会用浮点数来表示，这个时候通过比较差值的绝对值比较好，代码中步长是0.1，可以把误差取为0.0001，查找语句改为</p>
+<pre><code class="language-matlab">find(abs(b(:,1) - x(i)) &lt;= 0.00001)
+</code></pre>
+<h2 id="速度优化">速度优化</h2>
+<h3 id="加速符号计算">加速符号计算</h3>
+<p>使用大量sym计算时，安装maple及MATLAB的maple tool box，有效加快符号运算速度（100″+→0.8″）</p>
+<h3 id="使用句柄">使用句柄</h3>
+<h2 id="疑难杂症">疑难杂症</h2>
+<h3 id="maplemexmexw64-不是有效的-win32-应用程序">maplemex.mexw64 不是有效的 Win32 应用程序</h3>
+<img src="https://img-blog.csdnimg.cn/20200330105404541.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hpb25nX3hpbg==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述" style="zoom:50%;" />
 
               </div>
               <div class="toc-container">
                 <ul class="markdownIt-TOC">
 <li>
 <ul>
-<li><a href="#%E5%88%A0%E9%99%A4%E6%8C%87%E5%AE%9A%E9%A1%B9">删除指定项</a>
-<ul>
-<li><a href="#%E5%88%A0%E9%99%A4%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E5%9B%BA%E5%AE%9A%E5%80%BC">删除矩阵中的固定值</a></li>
-</ul>
-</li>
-<li><a href="#%E6%95%B0%E6%8D%AE%E5%87%BA%E5%85%A5">数据出入</a>
+<li><a href="#%E6%95%B0%E6%8D%AEio">数据I/O</a>
 <ul>
 <li><a href="#%E5%AF%BC%E5%85%A5excel">导入EXCEL</a></li>
 <li><a href="#%E5%AF%BC%E5%87%BAexcel">导出EXCEL</a></li>
 <li><a href="#%E4%BF%9D%E5%AD%98%E5%B7%A5%E4%BD%9C%E5%8C%BA">保存工作区</a></li>
 <li><a href="#%E5%AF%BC%E5%85%A5%E5%B7%A5%E4%BD%9C%E5%8C%BA">导入工作区</a></li>
+</ul>
+</li>
+<li><a href="#%E5%88%A4%E6%96%AD%E7%9B%B8%E7%AD%89">判断相等</a></li>
+<li><a href="#%E9%80%9F%E5%BA%A6%E4%BC%98%E5%8C%96">速度优化</a>
+<ul>
+<li><a href="#%E5%8A%A0%E9%80%9F%E7%AC%A6%E5%8F%B7%E8%AE%A1%E7%AE%97">加速符号计算</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E5%8F%A5%E6%9F%84">使用句柄</a></li>
+</ul>
+</li>
+<li><a href="#%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87">疑难杂症</a>
+<ul>
+<li><a href="#maplemexmexw64-%E4%B8%8D%E6%98%AF%E6%9C%89%E6%95%88%E7%9A%84-win32-%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F">maplemex.mexw64 不是有效的 Win32 应用程序</a></li>
 </ul>
 </li>
 </ul>
