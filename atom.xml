@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shuanax.github.io/</id>
     <title>ShuanaX</title>
-    <updated>2021-07-27T17:37:13.856Z</updated>
+    <updated>2021-07-27T17:49:55.297Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shuanax.github.io/"/>
     <link rel="self" href="https://shuanax.github.io/atom.xml"/>
@@ -318,10 +318,26 @@ xlswrite('myExample.xlsx',[headers; values]);
 </code></pre>
 <h3 id="缩小字号">缩小字号</h3>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">A</span></span></span></span></p>
-<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="0.9em"><mi>A</mi></mstyle></mrow><annotation encoding="application/x-tex">\small{A}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.614997em;vertical-align:0em;"></span><span class="mord sizing reset-size6 size5"><span class="mord mathdefault">A</span></span></span></span></span></p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="0.5em"><mi>A</mi></mstyle></mrow><annotation encoding="application/x-tex">\tiny A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.341665em;vertical-align:0em;"></span><span class="mord mathdefault sizing reset-size6 size1">A</span></span></span></span><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="0.7em"><mi>A</mi></mstyle></mrow><annotation encoding="application/x-tex">\scriptsize A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.47833099999999995em;vertical-align:0em;"></span><span class="mord mathdefault sizing reset-size6 size3">A</span></span></span></span><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="0.9em"><mi>A</mi></mstyle></mrow><annotation encoding="application/x-tex">\small A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.614997em;vertical-align:0em;"></span><span class="mord mathdefault sizing reset-size6 size5">A</span></span></span></span><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="1em"><mi>A</mi></mstyle></mrow><annotation encoding="application/x-tex">\normalsize A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">A</span></span></span></span><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="1.2em"><mi>A</mi></mstyle></mrow><annotation encoding="application/x-tex">\large A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.819996em;vertical-align:0em;"></span><span class="mord mathdefault sizing reset-size6 size7">A</span></span></span></span><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="1.44em"><mi>A</mi></mstyle></mrow><annotation encoding="application/x-tex">\Large A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9839952em;vertical-align:0em;"></span><span class="mord mathdefault sizing reset-size6 size8">A</span></span></span></span><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="1.728em"><mi>A</mi></mstyle></mrow><annotation encoding="application/x-tex">\LARGE A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.18079424em;vertical-align:0em;"></span><span class="mord mathdefault sizing reset-size6 size9">A</span></span></span></span><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="2.074em"><mi>A</mi></mstyle></mrow><annotation encoding="application/x-tex">\huge A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.41722642em;vertical-align:0em;"></span><span class="mord mathdefault sizing reset-size6 size10">A</span></span></span></span><br>
+<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="2.488em"><mi>A</mi></mstyle></mrow><annotation encoding="application/x-tex">\Huge A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.7001250399999999em;vertical-align:0em;"></span><span class="mord mathdefault sizing reset-size6 size11">A</span></span></span></span></p>
 <pre><code class="language-latex">$A$
-
-$\small{A}$
+$\tiny A$
+$\scriptsize A$
+$\footnotesize A$
+$\small A$
+$\normalsize A$
+$\large A$
+$\Large A$
+$\LARGE A$
+$\huge A$
+$\Huge A$
 </code></pre>
 <h2 id="换行术">换行术</h2>
 <h3 id="换行后行间距">换行后行间距</h3>
@@ -336,6 +352,65 @@ $A\\[4mm]B$
 <pre><code class="language-latex">$\left.\{ABC \right.\\      
 \left. ABC \right.\}$
 </code></pre>
+<h3 id="equation内换行对齐"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>e</mi><mi>q</mi><mi>u</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi></mrow><annotation encoding="application/x-tex">equation</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">e</span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span><span class="mord mathdefault">u</span><span class="mord mathdefault">a</span><span class="mord mathdefault">t</span><span class="mord mathdefault">i</span><span class="mord mathdefault">o</span><span class="mord mathdefault">n</span></span></span></span>内换行+对齐</h3>
+<p><span class='katex-error' title='ParseError: KaTeX parse error: No such environment: equation at position 7: \begin{̲e̲q̲u̲a̲t̲i̲o̲n̲}̲
+\begin{split}
+…'>\begin{equation}
+\begin{split}
+ ABC&amp;=b\\
+ BC&amp;=cd
+\end{split}
+\end{equation}</span></p>
+<pre><code class="language-latex">\begin{equation}
+\begin{split}
+ ABC&amp;=b\\
+ BC&amp;=cd
+\end{split}
+\end{equation}
+</code></pre>
+<h4 id="euqationarray内换行"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>e</mi><mi>u</mi><mi>q</mi><mi>a</mi><mi>t</mi><mi>i</mi><mi>o</mi><mi>n</mi></mrow><annotation encoding="application/x-tex">euqation</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">e</span><span class="mord mathdefault">u</span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span><span class="mord mathdefault">a</span><span class="mord mathdefault">t</span><span class="mord mathdefault">i</span><span class="mord mathdefault">o</span><span class="mord mathdefault">n</span></span></span></span>→<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mi>r</mi><mi>r</mi><mi>a</mi><mi>y</mi></mrow><annotation encoding="application/x-tex">array</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span></span></span>内换行</h4>
+<p><span class='katex-error' title='ParseError: KaTeX parse error: No such environment: equation at position 7: \begin{̲e̲q̲u̲a̲t̲i̲o̲n̲}̲
+T_\sigma = \le…'>\begin{equation}
+T_\sigma = \left\{
+      \begin{array}{lcl}
+      {[0, u_\sigma]} &amp;\text{if} &amp;\sigma \in \Sigma_{spe} \\
+      {[0, l_\sigma]} &amp;\text{if} &amp;\sigma \in \Sigma_{rem} 
+      \end{array} 
+    \right.
+\end {equation}</span></p>
+<pre><code class="language-latex">\begin{equation}
+T_\sigma = \left\{
+      \begin{array}{lcl}
+      {[0, u_\sigma]} &amp;\text{if} &amp;\sigma \in \Sigma_{spe} \\
+      {[0, l_\sigma]} &amp;\text{if} &amp;\sigma \in \Sigma_{rem} 
+      \end{array} 
+    \right.
+\end{equation}
+</code></pre>
+<h3 id="eqnarray内换行"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>e</mi><mi>q</mi><mi>n</mi><mi>a</mi><mi>r</mi><mi>r</mi><mi>a</mi><mi>y</mi></mrow><annotation encoding="application/x-tex">eqnarray</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">e</span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span><span class="mord mathdefault">n</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span></span></span>内换行</h3>
+<p><span class='katex-error' title='ParseError: KaTeX parse error: No such environment: eqnarray at position 8: 
+\begin{̲e̲q̲n̲a̲r̲r̲a̲y̲}̲
+a &amp; = &amp; b + c …'>
+\begin{eqnarray}
+a &amp; = &amp; b + c \\
+  &amp; = &amp; y - z
+\end{eqnarray}
+</span></p>
+<pre><code class="language-latex">\begin{eqnarray}
+a &amp; = &amp; b + c \\
+  &amp; = &amp; y - z
+\end{eqnarray}
+</code></pre>
+<h3 id="aligned">aligned</h3>
+<p><span class='katex-error' title='ParseError: KaTeX parse error: No such environment: equation at position 7: \begin{̲e̲q̲u̲a̲t̲i̲o̲n̲}̲ \begin{aligned…'>\begin{equation} \begin{aligned} R(S_2)&amp;= p_2\cdot S_2=\sum_{i\in \mathcal{I}^+(p_2)}B_i+\beta B_{l&#039;}\\ &amp;\leq \sum_{i\in \mathcal{I}^+(p_2)}B_i+B_{l&#039;}\leq \sum_{i\in \mathcal{I}^+(p_1)}B_i \\ &amp;\leq \sum_{i\in \mathcal{I}^+(p_1)}B_i+\alpha B_l=R(S_1) \end{aligned} \end{equation}</span></p>
+<pre><code class="language-latex">\begin{equation} 
+\begin{aligned} 
+R(S_2)&amp;= p_2\cdot S_2=\sum_{i\in \mathcal{I}^+(p_2)}B_i+\beta B_{l'}\\ 
+&amp;\leq \sum_{i\in \mathcal{I}^+(p_2)}B_i+B_{l'}\leq \sum_{i\in \mathcal{I}^+(p_1)}B_i\\ 
+&amp;\leq \sum_{i\in \mathcal{I}^+(p_1)}B_i+\alpha B_l=R(S_1) 
+\end{aligned} 
+\end{equation}
+</code></pre>
 <h3 id="竖线大小">竖线大小</h3>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mrow><mfrac><mrow><mi>d</mi><mi>y</mi></mrow><mrow><mi>d</mi><mi>x</mi></mrow></mfrac><mo fence="true">∣</mo></mrow><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></msub></mrow><annotation encoding="application/x-tex">\left.\dfrac{dy}{dx}\right|_{x=0}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.4737em;vertical-align:-0.9997199999999998em;"></span><span class="minner"><span class="minner"><span class="mopen nulldelimiter"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714399999999998em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">d</span><span class="mord mathdefault">x</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">d</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.47398em;"><span style="top:-1.65598em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-2.26198em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-2.86798em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-3.47398em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9500199999999999em;"><span></span></span></span></span></span></span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:-0.5486119999999999em;"><span style="top:-1.7002800000000002em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">x</span><span class="mrel mtight">=</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.9997199999999998em;"><span></span></span></span></span></span></span></span></span></span></p>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo fence="false">∣</mo></mrow><annotation encoding="application/x-tex">\Bigg|</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3.03em;vertical-align:-1.250025em;"></span><span class="mord"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.7799749999999999em;"><span style="top:-1.355975em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-1.9619749999999998em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-2.5679749999999997em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-3.173975em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-3.779975em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.250025em;"><span></span></span></span></span></span></span></span></span></span></p>
@@ -344,19 +419,7 @@ $A\\[4mm]B$
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo fence="false">∣</mo></mrow><annotation encoding="application/x-tex">\bigm|</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.212em;vertical-align:-0.35000999999999993em;"></span><span class="mrel"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.86199em;"><span style="top:-2.2559899999999997em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-2.86199em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.35000999999999993em;"><span></span></span></span></span></span></span></span></span></span></p>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∣</mo></mrow><annotation encoding="application/x-tex">\mid</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mrel">∣</span></span></span></span></p>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo fence="true">∣</mo><mo fence="true">∣</mo></mrow><annotation encoding="application/x-tex">\left| \right|</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">∣</span><span class="mclose delimcenter" style="top:0em;">∣</span></span></span></span></span></p>
-<pre><code class="language-latex">$\left.\dfrac{dy}{dx}\right|_{x=0}$
-
-$\Bigg|$
-
-$\Big|$
-
-$\big|$
-
-$\bigm|$
-
-$\mid$
-
-$\left| \right|$
+<pre><code class="language-latex">$\left.\dfrac{dy}{dx}\right|_{x=0}$$\Bigg|$$\Big|$$\big|$$\bigm|$$\mid$$\left| \right|$
 </code></pre>
 <h3 id="括号大小">括号大小</h3>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo fence="false">{</mo><mo fence="false">{</mo><mo fence="false">[</mo><mo fence="false">(</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo fence="false">)</mo><mo fence="false">]</mo><mo fence="false">}</mo><mo fence="false">}</mo></mrow><annotation encoding="application/x-tex">
@@ -370,23 +433,85 @@ $\left| \right|$
  \bigg\}
 \Bigg\}
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3.0000299999999998em;vertical-align:-1.25003em;"></span><span class="mord"><span class="delimsizing size4">{</span></span><span class="mord"><span class="delimsizing size3">{</span></span><span class="mord"><span class="delimsizing size2">[</span></span><span class="mord"><span class="delimsizing size1">(</span></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mord"><span class="delimsizing size1">)</span></span><span class="mord"><span class="delimsizing size2">]</span></span><span class="mord"><span class="delimsizing size3">}</span></span><span class="mord"><span class="delimsizing size4">}</span></span></span></span></span></p>
-<pre><code class="language-latex">$
-\Bigg\{
- \bigg\{
-  \Big[
-   \big(
-     (x)
-   \big)
-  \Big]
- \bigg\}
-\Bigg\}
-$
+<pre><code class="language-latex">$\Bigg\{ \bigg\{  \Big[   \big(     (x)   \big)  \Big] \bigg\}\Bigg\}$
 </code></pre>
 <h2 id="字体">字体</h2>
 <h3 id="欧拉字体">欧拉字体</h3>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="script">M</mi></mrow><annotation encoding="application/x-tex">\mathcal{M}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord"><span class="mord mathcal">M</span></span></span></span></span></p>
-<pre><code class="language-latex">\usepackage{eucal}
-$\mathcal{M}$
+<pre><code class="language-latex">\usepackage{eucal}$\mathcal{M}$
+</code></pre>
+<h3 id="特殊字符">特殊字符</h3>
+<h4 id="证明符号">证明符号</h4>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">□</mi></mrow><annotation encoding="application/x-tex">\square
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.675em;vertical-align:0em;"></span><span class="mord amsrm">□</span></span></span></span></span></p>
+<pre><code class="language-latex">\hfill $\square$
+</code></pre>
+<h4 id="空心圆">空心圆</h4>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mover accent="true"><mi>a</mi><mo>˚</mo></mover></mrow><annotation encoding="application/x-tex">{\mathring{a}}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord"><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.69444em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault">a</span></span></span><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.375em;">˚</span></span></span></span></span></span></span></span></span></span></span></p>
+<pre><code class="language-latex">\mathring{a}
+</code></pre>
+<h4 id="罗马字母">罗马字母</h4>
+<p>i ii iii</p>
+<pre><code class="language-latex">\romannumeral1 \romannumeral2 \romannumeral3
+</code></pre>
+<h4 id="箭头上下文字">箭头上下文字</h4>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>A</mi><munderover><mo stretchy="true">→</mo><mrow><mo>…</mo><mo>…</mo></mrow><mrow><mo>…</mo><mo>…</mo></mrow></munderover><mi>B</mi><munderover><mo stretchy="true">→</mo><mrow><mo>…</mo><mo>…</mo></mrow><mrow><mo>…</mo><mo>…</mo></mrow></munderover><mi>C</mi></mrow><annotation encoding="application/x-tex">A\xrightarrow[……]{……}B\xrightarrow[……]{……}C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.912em;vertical-align:-0.20600000000000007em;"></span><span class="mord mathdefault">A</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel x-arrow"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.706em;"><span style="top:-3.322em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight x-arrow-pad"><span class="mord mtight"><span class="minner mtight">…</span><span class="minner mtight">…</span></span></span></span><span class="svg-align" style="top:-2.689em;"><span class="pstrut" style="height:2.7em;"></span><span class="hide-tail" style="height:0.522em;min-width:1.469em;"><svg width='400em' height='0.522em' viewBox='0 0 400000 522' preserveAspectRatio='xMaxYMin slice'><path d='M0 241v40h399891c-47.3 35.3-84 78-110 128
+-16.7 32-27.7 63.7-33 95 0 1.3-.2 2.7-.5 4-.3 1.3-.5 2.3-.5 3 0 7.3 6.7 11 20
+ 11 8 0 13.2-.8 15.5-2.5 2.3-1.7 4.2-5.5 5.5-11.5 2-13.3 5.7-27 11-41 14.7-44.7
+ 39-84.5 73-119.5s73.7-60.2 119-75.5c6-2 9-5.7 9-11s-3-9-9-11c-45.3-15.3-85
+-40.5-119-75.5s-58.3-74.8-73-119.5c-4.7-14-8.3-27.3-11-40-1.3-6.7-3.2-10.8-5.5
+-12.5-2.3-1.7-7.5-2.5-15.5-2.5-14 0-21 3.7-21 11 0 2 2 10.3 6 25 20.7 83.3 67
+ 151.7 139 205zm0 0v40h399900v-40z'/></svg></span></span><span style="top:-2.494em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight x-arrow-pad"><span class="mord mtight"><span class="minner mtight">…</span><span class="minner mtight">…</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.20600000000000007em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.912em;vertical-align:-0.20600000000000007em;"></span><span class="mord mathdefault" style="margin-right:0.05017em;">B</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel x-arrow"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.706em;"><span style="top:-3.322em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight x-arrow-pad"><span class="mord mtight"><span class="minner mtight">…</span><span class="minner mtight">…</span></span></span></span><span class="svg-align" style="top:-2.689em;"><span class="pstrut" style="height:2.7em;"></span><span class="hide-tail" style="height:0.522em;min-width:1.469em;"><svg width='400em' height='0.522em' viewBox='0 0 400000 522' preserveAspectRatio='xMaxYMin slice'><path d='M0 241v40h399891c-47.3 35.3-84 78-110 128
+-16.7 32-27.7 63.7-33 95 0 1.3-.2 2.7-.5 4-.3 1.3-.5 2.3-.5 3 0 7.3 6.7 11 20
+ 11 8 0 13.2-.8 15.5-2.5 2.3-1.7 4.2-5.5 5.5-11.5 2-13.3 5.7-27 11-41 14.7-44.7
+ 39-84.5 73-119.5s73.7-60.2 119-75.5c6-2 9-5.7 9-11s-3-9-9-11c-45.3-15.3-85
+-40.5-119-75.5s-58.3-74.8-73-119.5c-4.7-14-8.3-27.3-11-40-1.3-6.7-3.2-10.8-5.5
+-12.5-2.3-1.7-7.5-2.5-15.5-2.5-14 0-21 3.7-21 11 0 2 2 10.3 6 25 20.7 83.3 67
+ 151.7 139 205zm0 0v40h399900v-40z'/></svg></span></span><span style="top:-2.494em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight x-arrow-pad"><span class="mord mtight"><span class="minner mtight">…</span><span class="minner mtight">…</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.20600000000000007em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span></span></span></span></p>
+<pre><code class="language-latex">A\xrightarrow[……]{……}B\xrightarrow[……]{……}C
+</code></pre>
+<h2 id="正则替换">正则替换</h2>
+<h3 id="去注释颜色">去注释颜色</h3>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathcolor="red"><mi>a</mi></mstyle></mrow><annotation encoding="application/x-tex">\textcolor{red}{a}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="color:red;">a</span></span></span></span></p>
+<pre><code class="language-latex">\\red\{\(*\)\}
+</code></pre>
+<p>替换为</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi></mrow><annotation encoding="application/x-tex">a
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">a</span></span></span></span></span></p>
+<pre><code class="language-latex">\0
+</code></pre>
+<h2 id="表格">表格</h2>
+<h3 id="普通">普通</h3>
+<pre><code class="language-latex">\begin{table}	\centering	\caption{}\label{}	\resizebox{\textwidth}{!}{		\begin{tabular}{}			\toprule				\\			\midrule				\\			\bottomrule		\end{tabular}	}\end{table}
+</code></pre>
+<h3 id="与文字等宽">与文字等宽</h3>
+<h2 id="图片">图片</h2>
+<pre><code class="language-latex">\begin{figure}	\centering	\begin{minipage}[h]{0.49\textwidth}		\centering		\includegraphics[width=7.5cm]{}		\caption{}\label{}	\end{minipage}	\begin{minipage}[h]{0.49\textwidth}		\centering		\includegraphics[width=7.5cm]{}		\caption{}\label{}	\end{minipage}	\begin{minipage}[h]{0.49\textwidth}		\centering		\includegraphics[width=7.5cm]{}		\caption{}\label{}	\end{minipage}\end{figure}
+</code></pre>
+<h2 id="对齐">对齐</h2>
+<p>​</p>
+<h3 id="居中">居中</h3>
+<pre><code class="language-latex">\begin{center}  \begin{tabular}{rl}  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...  姓名：&amp; xxx \\  班级学号：&amp; 111111 \\  性别：&amp; 女 \\  单位名称：&amp; xx大学  \end{tabular}\end{center}
+</code></pre>
+<h4 id="靠左居中">靠左居中</h4>
+<pre><code class="language-latex">\begin{center}  \begin{tabular}{l}  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...  我如果爱你\\  绝不像攀援的凌霄花\\  借你的高枝炫耀自己\\  \end{tabular}\end{center}
+</code></pre>
+<h3 id="靠左">靠左</h3>
+<pre><code class="language-latex">\flushleft{}
+</code></pre>
+<h3 id="靠右">靠右</h3>
+<pre><code class="language-latex">\flushright{}
+</code></pre>
+<h2 id="特殊">特殊</h2>
+<h3 id="修改theorem颜色">修改Theorem颜色</h3>
+<pre><code class="language-latex">\usepackage{amsthm,xcolor}% declare a new theorem style\newtheoremstyle{mystyle}%{3pt}% Space above{3pt}% Space below{ }% Body font{}% Indent amount{\bfseries\color{red}}% Theorem head font{.}% Punctuation after theorem head{.5em}% Space after theorem head{}% Theorem head spec (can be left empty, meaning ‘normal’)\theoremstyle{mystyle}
+</code></pre>
+<h3 id="增加非顺序bibtex项目">增加非顺序bibtex项目</h3>
+<pre><code class="language-latex">@article{Tian2020,  title = {Lookback Option Pricing Problem of Mean-Reverting Stock Model in Uncertain Environment},  author = {Tian, Miao and Yang, Xiangfeng and Zhang, Yi},  journal = {Journal of Industrial \&amp; Management Optimization},  note = {https://doi.org/10.3934/jimo.2020090},}
+</code></pre>
+<h3 id="引用段落左侧竖线">引用（段落左侧竖线）</h3>
+<pre><code class="language-latex">\usepackage[x11names, svgnames]{xcolor}\usepackage{mdframed}\usepackage{graphicx}\usepackage{fourier-orns}%\definecolor{warningColor}{named}{Red3}\newcommand{\warningSymbol}{\raisebox{\depth}{\danger}}\newenvironment{Warning}{%\bigskip\begin{mdframed}[%topline=false,%rightline=false,%bottomline=false,%innertopmargin=0.4em,%innerbottommargin=0.4em,%innerrightmargin=0.7em,%rightmargin=0.7em,%innerleftmargin=0.7em,%leftmargin=0.7em,%linewidth=.2em,%linecolor=blue%]\color{blue}}{%\end{mdframed}%\bigskip}
 </code></pre>
 ]]></content>
     </entry>
