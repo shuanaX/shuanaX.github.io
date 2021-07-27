@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shuanax.github.io/</id>
     <title>ShuanaX</title>
-    <updated>2021-07-27T17:49:55.297Z</updated>
+    <updated>2021-07-27T18:04:48.878Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shuanax.github.io/"/>
     <link rel="self" href="https://shuanax.github.io/atom.xml"/>
@@ -419,7 +419,19 @@ R(S_2)&amp;= p_2\cdot S_2=\sum_{i\in \mathcal{I}^+(p_2)}B_i+\beta B_{l'}\\
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo fence="false">∣</mo></mrow><annotation encoding="application/x-tex">\bigm|</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.212em;vertical-align:-0.35000999999999993em;"></span><span class="mrel"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.86199em;"><span style="top:-2.2559899999999997em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span><span style="top:-2.86199em;"><span class="pstrut" style="height:2.606em;"></span><span class="delimsizinginner delim-size1"><span>∣</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.35000999999999993em;"><span></span></span></span></span></span></span></span></span></span></p>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∣</mo></mrow><annotation encoding="application/x-tex">\mid</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mrel">∣</span></span></span></span></p>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo fence="true">∣</mo><mo fence="true">∣</mo></mrow><annotation encoding="application/x-tex">\left| \right|</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;">∣</span><span class="mclose delimcenter" style="top:0em;">∣</span></span></span></span></span></p>
-<pre><code class="language-latex">$\left.\dfrac{dy}{dx}\right|_{x=0}$$\Bigg|$$\Big|$$\big|$$\bigm|$$\mid$$\left| \right|$
+<pre><code class="language-latex">$\left.\dfrac{dy}{dx}\right|_{x=0}$
+
+$\Bigg|$
+
+$\Big|$
+
+$\big|$
+
+$\bigm|$
+
+$\mid$
+
+$\left| \right|$
 </code></pre>
 <h3 id="括号大小">括号大小</h3>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo fence="false">{</mo><mo fence="false">{</mo><mo fence="false">[</mo><mo fence="false">(</mo><mo>(</mo><mi>x</mi><mo>)</mo><mo fence="false">)</mo><mo fence="false">]</mo><mo fence="false">}</mo><mo fence="false">}</mo></mrow><annotation encoding="application/x-tex">
@@ -433,12 +445,23 @@ R(S_2)&amp;= p_2\cdot S_2=\sum_{i\in \mathcal{I}^+(p_2)}B_i+\beta B_{l'}\\
  \bigg\}
 \Bigg\}
 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3.0000299999999998em;vertical-align:-1.25003em;"></span><span class="mord"><span class="delimsizing size4">{</span></span><span class="mord"><span class="delimsizing size3">{</span></span><span class="mord"><span class="delimsizing size2">[</span></span><span class="mord"><span class="delimsizing size1">(</span></span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mord"><span class="delimsizing size1">)</span></span><span class="mord"><span class="delimsizing size2">]</span></span><span class="mord"><span class="delimsizing size3">}</span></span><span class="mord"><span class="delimsizing size4">}</span></span></span></span></span></p>
-<pre><code class="language-latex">$\Bigg\{ \bigg\{  \Big[   \big(     (x)   \big)  \Big] \bigg\}\Bigg\}$
+<pre><code class="language-latex">$
+\Bigg\{
+ \bigg\{
+  \Big[
+   \big(
+     (x)
+   \big)
+  \Big]
+ \bigg\}
+\Bigg\}
+$
 </code></pre>
 <h2 id="字体">字体</h2>
 <h3 id="欧拉字体">欧拉字体</h3>
 <p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="script">M</mi></mrow><annotation encoding="application/x-tex">\mathcal{M}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord"><span class="mord mathcal">M</span></span></span></span></span></p>
-<pre><code class="language-latex">\usepackage{eucal}$\mathcal{M}$
+<pre><code class="language-latex">\usepackage{eucal}
+$\mathcal{M}$
 </code></pre>
 <h3 id="特殊字符">特殊字符</h3>
 <h4 id="证明符号">证明符号</h4>
@@ -483,19 +506,63 @@ R(S_2)&amp;= p_2\cdot S_2=\sum_{i\in \mathcal{I}^+(p_2)}B_i+\beta B_{l'}\\
 </code></pre>
 <h2 id="表格">表格</h2>
 <h3 id="普通">普通</h3>
-<pre><code class="language-latex">\begin{table}	\centering	\caption{}\label{}	\resizebox{\textwidth}{!}{		\begin{tabular}{}			\toprule				\\			\midrule				\\			\bottomrule		\end{tabular}	}\end{table}
+<pre><code class="language-latex">\begin{table}
+	\centering
+	\caption{}\label{}
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{}
+			\toprule
+				\\
+			\midrule
+				\\
+			\bottomrule
+		\end{tabular}
+	}
+\end{table}
 </code></pre>
 <h3 id="与文字等宽">与文字等宽</h3>
 <h2 id="图片">图片</h2>
-<pre><code class="language-latex">\begin{figure}	\centering	\begin{minipage}[h]{0.49\textwidth}		\centering		\includegraphics[width=7.5cm]{}		\caption{}\label{}	\end{minipage}	\begin{minipage}[h]{0.49\textwidth}		\centering		\includegraphics[width=7.5cm]{}		\caption{}\label{}	\end{minipage}	\begin{minipage}[h]{0.49\textwidth}		\centering		\includegraphics[width=7.5cm]{}		\caption{}\label{}	\end{minipage}\end{figure}
+<pre><code class="language-latex">\begin{figure}
+	\centering
+	\begin{minipage}[h]{0.49\textwidth}
+		\centering
+		\includegraphics[width=7.5cm]{}
+		\caption{}\label{}
+	\end{minipage}
+	\begin{minipage}[h]{0.49\textwidth}
+		\centering
+		\includegraphics[width=7.5cm]{}
+		\caption{}\label{}
+	\end{minipage}
+	\begin{minipage}[h]{0.49\textwidth}
+		\centering
+		\includegraphics[width=7.5cm]{}
+		\caption{}\label{}
+	\end{minipage}
+\end{figure}
 </code></pre>
 <h2 id="对齐">对齐</h2>
 <p>​</p>
 <h3 id="居中">居中</h3>
-<pre><code class="language-latex">\begin{center}  \begin{tabular}{rl}  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...  姓名：&amp; xxx \\  班级学号：&amp; 111111 \\  性别：&amp; 女 \\  单位名称：&amp; xx大学  \end{tabular}\end{center}
+<pre><code class="language-latex">\begin{center}
+  \begin{tabular}{rl}
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  姓名：&amp; xxx \\
+  班级学号：&amp; 111111 \\
+  性别：&amp; 女 \\
+  单位名称：&amp; xx大学
+  \end{tabular}
+\end{center}
 </code></pre>
 <h4 id="靠左居中">靠左居中</h4>
-<pre><code class="language-latex">\begin{center}  \begin{tabular}{l}  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...  我如果爱你\\  绝不像攀援的凌霄花\\  借你的高枝炫耀自己\\  \end{tabular}\end{center}
+<pre><code class="language-latex">\begin{center}
+  \begin{tabular}{l}
+  % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+  我如果爱你\\
+  绝不像攀援的凌霄花\\
+  借你的高枝炫耀自己\\
+  \end{tabular}
+\end{center}
 </code></pre>
 <h3 id="靠左">靠左</h3>
 <pre><code class="language-latex">\flushleft{}
@@ -505,13 +572,54 @@ R(S_2)&amp;= p_2\cdot S_2=\sum_{i\in \mathcal{I}^+(p_2)}B_i+\beta B_{l'}\\
 </code></pre>
 <h2 id="特殊">特殊</h2>
 <h3 id="修改theorem颜色">修改Theorem颜色</h3>
-<pre><code class="language-latex">\usepackage{amsthm,xcolor}% declare a new theorem style\newtheoremstyle{mystyle}%{3pt}% Space above{3pt}% Space below{ }% Body font{}% Indent amount{\bfseries\color{red}}% Theorem head font{.}% Punctuation after theorem head{.5em}% Space after theorem head{}% Theorem head spec (can be left empty, meaning ‘normal’)\theoremstyle{mystyle}
+<pre><code class="language-latex">\usepackage{amsthm,xcolor}
+% declare a new theorem style
+\newtheoremstyle{mystyle}%
+{3pt}% Space above
+{3pt}% Space below
+{ }% Body font
+{}% Indent amount
+{\bfseries\color{red}}% Theorem head font
+{.}% Punctuation after theorem head
+{.5em}% Space after theorem head
+{}% Theorem head spec (can be left empty, meaning ‘normal’)
+\theoremstyle{mystyle}
 </code></pre>
 <h3 id="增加非顺序bibtex项目">增加非顺序bibtex项目</h3>
-<pre><code class="language-latex">@article{Tian2020,  title = {Lookback Option Pricing Problem of Mean-Reverting Stock Model in Uncertain Environment},  author = {Tian, Miao and Yang, Xiangfeng and Zhang, Yi},  journal = {Journal of Industrial \&amp; Management Optimization},  note = {https://doi.org/10.3934/jimo.2020090},}
+<pre><code class="language-latex">@article{Tian2020,
+  title = {Lookback Option Pricing Problem of Mean-Reverting Stock Model in Uncertain Environment},
+  author = {Tian, Miao and Yang, Xiangfeng and Zhang, Yi},
+  journal = {Journal of Industrial \&amp; Management Optimization},
+  note = {https://doi.org/10.3934/jimo.2020090},
+}
 </code></pre>
 <h3 id="引用段落左侧竖线">引用（段落左侧竖线）</h3>
-<pre><code class="language-latex">\usepackage[x11names, svgnames]{xcolor}\usepackage{mdframed}\usepackage{graphicx}\usepackage{fourier-orns}%\definecolor{warningColor}{named}{Red3}\newcommand{\warningSymbol}{\raisebox{\depth}{\danger}}\newenvironment{Warning}{%\bigskip\begin{mdframed}[%topline=false,%rightline=false,%bottomline=false,%innertopmargin=0.4em,%innerbottommargin=0.4em,%innerrightmargin=0.7em,%rightmargin=0.7em,%innerleftmargin=0.7em,%leftmargin=0.7em,%linewidth=.2em,%linecolor=blue%]\color{blue}}{%\end{mdframed}%\bigskip}
+<pre><code class="language-latex">\usepackage[x11names, svgnames]{xcolor}
+\usepackage{mdframed}
+\usepackage{graphicx}
+\usepackage{fourier-orns}
+%\definecolor{warningColor}{named}{Red3}
+\newcommand{\warningSymbol}{\raisebox{\depth}{\danger}}
+\newenvironment{Warning}{%
+\bigskip
+\begin{mdframed}[%
+topline=false,%
+rightline=false,%
+bottomline=false,%
+innertopmargin=0.4em,%
+innerbottommargin=0.4em,%
+innerrightmargin=0.7em,%
+rightmargin=0.7em,%
+innerleftmargin=0.7em,%
+leftmargin=0.7em,%
+linewidth=.2em,%
+linecolor=blue%
+]
+\color{blue}
+}{%
+\end{mdframed}%
+\bigskip
+}
 </code></pre>
 ]]></content>
     </entry>
