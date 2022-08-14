@@ -2,20 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shuanax.github.io/</id>
     <title>ShuanaX</title>
-    <updated>2021-07-28T06:58:16.912Z</updated>
+    <updated>2022-08-14T01:25:29.103Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://shuanax.github.io/"/>
     <link rel="self" href="https://shuanax.github.io/atom.xml"/>
     <subtitle>风虽大，都绕过我的灵魂</subtitle>
     <logo>https://shuanax.github.io/images/avatar.png</logo>
     <icon>https://shuanax.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, ShuanaX</rights>
+    <rights>All rights reserved 2022, ShuanaX</rights>
     <entry>
         <title type="html"><![CDATA[ MATLAB 笔记]]></title>
         <id>https://shuanax.github.io/post/markdown-hua-tu/</id>
         <link href="https://shuanax.github.io/post/markdown-hua-tu/">
         </link>
-        <updated>2020-10-14T14:44:51.000Z</updated>
+        <updated>2020-10-13T23:44:51.000Z</updated>
         <content type="html"><![CDATA[<h2 id="数据io">数据I/O</h2>
 <h3 id="导入excel">导入EXCEL</h3>
 <pre><code class="language-matlab">filename = 'myExample.xlsx';
